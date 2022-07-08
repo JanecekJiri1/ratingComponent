@@ -1,0 +1,73 @@
+/* just click button to show reating component */
+
+.reatingButton {
+  margin: 5px 0 10px 0;
+}
+
+/* Reating component */
+.reatingPoints {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxies {
+  display: flex;
+}
+
+.raetingBox {
+  margin-right: 15px;
+
+  width: 100px;
+  height: 155px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.raetingBox:hover {
+  background-color: aqua;
+}
+.raetingBoxClick {
+  background-color: aqua;
+  margin-right: 15px;
+
+  width: 100px;
+  height: 155px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.stars {
+  color: orange;
+  font-size: 24px;
+}
+
+.emoji {
+  font-size: 22px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+
+.comments {
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.reatingPoints > textarea {
+  margin: 10px 0;
+  height: 85px;
+  width: 300px;
+  padding: 3px 5px;
+}
+
+.reatingPoints > button {
+  margin-top: 5px;
+}
